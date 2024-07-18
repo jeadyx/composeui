@@ -1,0 +1,28 @@
+sonatypeUploader {
+    bundleName = "composeUtils-${project.version}"
+    tokenName = tokenUsername
+    tokenPasswd = tokenPassword
+    pom = {
+        it.name = "Jeady compose utils"
+        it.description = "An util Kit for comopse Android"
+        it.url = "https://github.com/jeadyx/composeui"
+        it.licenses {
+            license {
+                name = "The Apache License, Version 2.0"
+                url = "http://www.apache.org/licenses/LICENSE-2.0.txt"
+            }
+        }
+        it.developers {
+            developer {
+                id = "jeady"
+                name = "jeadyx"
+                email = "jeadyx@outlook.com"
+            }
+        }
+        it.scm {
+            connection = "https://github.com/jeadyx/composeui"
+            developerConnection = "https://github.com/jeadyx/composeui"
+            url = "https://github.com/jeadyx/composeui"
+        }
+    }
+}
